@@ -1,0 +1,161 @@
+/*navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4682b4;
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    text-align: center;
+    padding: 20px 24px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    font-style: italic;
+}
+
+/*header page 1*/
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 40px;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #4682b4;
+    text-align: center;
+}
+
+/*h4 heading*/
+h4 {
+    text-align: center;
+}
+
+/*paragraph1*/
+
+p {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*hiding hyperlink in paragraph1 text*/
+a:link {
+    text-decoration: none;
+    font-style: italic;
+    color: #000000;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4682b4;
+}
+
+/*table of family/achievements*/
+table {
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #4682b4;
+    text-align: center;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #4682b4;
+}
+
+/*family table*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #4682b4;
+    text-align: left;
+}
+
+/*history page-side-by-side images*/
+.column {
+    float: left;
+    width: 20%;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    font-style: bold;
+    font-size: 30px;
+    /*box border*/
+    outline: 7px groove #0f4f83;
+}
+
+/*historian fact - box border*/
+h4 {
+    outline: 10px double #0f4f83;
+    text-align: center;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+/*page 3 header*/
+.newspaper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: #4a4949;
+}
+
+.quote {
+    font-family: monospace;
+    font-size: 40px;
+    color: #808080;
+    text-align: center;
+}
+
+/*creating gallery*/
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #4682b4;
+    font-family:'Courier New', Courier, monospace;
+}
+
+hr {
+    color:#000000;
+}
+
+/*footer links used*/
+footer {
+    text-align: left;
+    font-size: 15px;
+    background: #d7d4d4;
+}
+
